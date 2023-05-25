@@ -1,0 +1,67 @@
+.container {
+  background: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+  display: flex;
+  gap: 0.875rem;
+  padding: 1.2rem 1.2rem .5rem 1.2rem;
+  align-items: flex-start;
+  width: 100%;
+}
+.textArea {
+  flex-grow: 1;
+  background: transparent;
+  border: 0;
+  resize: none;
+  color: var(--gray-100);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.textAreaDone {
+  flex: 1;
+  background: transparent;
+  border: 0;
+  resize: none;
+  color: var(--gray-300);
+  text-decoration: line-through;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+}
+.delete {
+  background-color: transparent;
+  border: 0;
+  color: var(--gray-300);
+}
+.delete:hover {
+  color: var(--danger);
+}
+.doneRadio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  background-color: transparent;
+  border: 1px solid var(--blue);
+  border-radius: 50%;
+}
+.doneRadio:hover {
+  border: 1px solid var(--blue-dark);
+}
+.doneRadioCompleted {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  background-color: var(--purple-dark);
+  border-radius: 50%;
+}
+.doneRadioCompleted:hover {
+  background-color: var(--purple);
+}

@@ -1,0 +1,106 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.area {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.form {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: -27px;
+}
+.input {
+  flex: 1;
+  background: var(--gray-500);
+  border-radius: 8px;
+  padding: 1.6rem;
+  color: var(--gray-100);
+  font-size: 1.6rem;
+  border: 1px solid var(--gray-700);
+}
+.button {
+  background: var(--blue-dark);
+  padding: 1.6rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border: none;
+  border: 1px solid var(--blue-dark);
+  color: var(--gray-100);
+  font: bold;
+  font-size: 1.4rem;
+}
+.button:hover {
+  background: var(--blue);
+}
+.header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4rem;
+  font-size: 14px;
+}
+.headerContent {
+  display: flex;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: var(--blue);
+}
+.headerContentPurple {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: var(--purple);
+  gap: 0.5rem;
+}
+.taskList {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  border-radius: 8px;
+  gap: 1.2rem;
+  margin-top: 1.5rem;
+  align-items: center;
+}
+.bubble {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gray-400);
+  color: var(--gray-200);
+  border-radius: 999px;
+  padding: 2px 8px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.noMessages {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding-top: 4rem;
+  align-items: center;
+  color: var(--gray-300);
+}
+.clipboard {
+  margin-bottom: 1rem;
+}
